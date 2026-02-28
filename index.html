@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chocolate Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f1e7;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #5c2d91;
+            color: white;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .price {
+            font-size: 20px;
+            color: green;
+            margin: 10px 0;
+        }
+
+        button {
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Sweet Chocolate Store 🍫</h1>
+</header>
+
+<div class="container">
+
+    <!-- KitKat -->
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/KitKat.jpg" alt="KitKat">
+        <h2>KitKat</h2>
+        <p>Have a break, have a KitKat!</p>
+        <div class="price">₹30</div>
+        <button onclick="alert('KitKat added to cart!')">Buy Now</button>
+    </div>
+
+    <!-- Dairy Milk -->
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Cadbury_Dairy_Milk.jpg" alt="Dairy Milk">
+        <h2>Dairy Milk</h2>
+        <p>Rich & Creamy Chocolate Taste</p>
+        <div class="price">₹40</div>
+        <button onclick="alert('Dairy Milk added to cart!')">Buy Now</button>
+    </div>
+
+</div>
+
+</body>
+</html>
