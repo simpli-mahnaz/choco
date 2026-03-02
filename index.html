@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hammad Chocolate Store</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ffe259, #ffa751);
+    text-align: center;
+}
+
+header {
+    background-color: #8e2de2;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 38px;
+}
+
+.cartoon-section {
+    margin: 20px;
+}
+
+.cartoon-section img {
+    width: 180px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    width: 220px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.price {
+    font-size: 18px;
+    color: green;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+footer {
+    background-color: #8e2de2;
+    color: white;
+    padding: 12px;
+    margin-top: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🍫 Hammad Chocolate Store 🍫</h1>
+    <p>Sweet Treats with Cartoon Fun!</p>
+</header>
+
+<!-- Cartoon GIF Section -->
+<div class="cartoon-section">
+    <h2>Our Cartoon Friends 🚗</h2>
+    <!-- Booba Style GIF -->
+    <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="Booba Cartoon">
+    <!-- Cars Style GIF -->
+    <img src="https://media.giphy.com/media/26BRuo6sLetdllPAQ/giphy.gif" alt="Cars Cartoon">
+</div>
+
+<!-- Product Section -->
+<div class="container">
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Cadbury_Dairy_Milk.jpg">
+        <h3>Dairy Milk</h3>
+        <p>Rich & Creamy Chocolate</p>
+        <div class="price">₹40</div>
+        <button onclick="alert('Dairy Milk added to cart!')">Buy Now</button>
+    </div>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/KitKat.jpg">
+        <h3>KitKat</h3>
+        <p>Have a Break, Have a KitKat</p>
+        <div class="price">₹30</div>
+        <button onclick="alert('KitKat added to cart!')">Buy Now</button>
+    </div>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Chocolate.jpg">
+        <h3>Milk Chocolate</h3>
+        <p>Smooth & Sweet</p>
+        <div class="price">₹35</div>
+        <button onclick="alert('Milk Chocolate added to cart!')">Buy Now</button>
+    </div>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Perk_Chocolate.jpg">
+        <h3>Perk</h3>
+        <p>Light & Crispy</p>
+        <div class="price">₹20</div>
+        <button onclick="alert('Perk added to cart!')">Buy Now</button>
+    </div>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Nestle_Munch.jpg">
+        <h3>Munch</h3>
+        <p>Crunchy Chocolate Fun</p>
+        <div class="price">₹25</div>
+        <button onclick="alert('Munch added to cart!')">Buy Now</button>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Hammad Chocolate Store | Made with ❤️
+</footer>
+
+</body>
+</html>
